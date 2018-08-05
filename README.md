@@ -2,7 +2,11 @@
 
 Tmux plugin that enables displaying bitcoin price for your workstation. Corruption galore!
 
-Tested and working on OSX.
+Tested and working on OSX, Ubuntu.
+
+### Dependencies
+
+`jq, bc` for now.
 
 ### Usage
 
