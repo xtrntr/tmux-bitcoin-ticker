@@ -2,8 +2,7 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# btc_price="#($(python $CURRENT_DIR/scripts/btc_price.py --ticker=bitfinex_btcusd))"
-btc_price="#($CURRENT_DIR/scripts/test.sh)"
+btc_price="#($CURRENT_DIR/scripts/fetch_price.sh)"
 btc_price_interpolation_string="\#{btc_price}"
 
 source $CURRENT_DIR/scripts/shared.sh
